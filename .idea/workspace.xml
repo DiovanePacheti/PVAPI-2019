@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5c89614-4197-45ad-9364-0c1f50ec2629" name="Default Changelist" comment="" />
+    <list default="true" id="e5c89614-4197-45ad-9364-0c1f50ec2629" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/andandonotempo/AndandonoTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/balaodehonra/BalãodeHonra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inseto/Inseto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tccdadepressãonatalino/TCCdaDepressãoNatalino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/br.com.prova2019/cachorrosquentes/CachorrosQuentes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/br.com.prova2019/cachorrosquentes/CachorrosQuentes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cachorrosquentes/CachorrosQuentes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cachorrosquentes/CachorrosQuentes.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SAAdcFJLavPa2mcsN1gEljPGM3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,13 +40,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CachorrosQuentes">
+  <component name="RunManager" selected="Application.Inseto">
     <configuration name="CachorrosQuentes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cachorrosquentes.CachorrosQuentes" />
       <module name="br.com.prova2019" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cachorrosquentes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inseto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inseto.Inseto" />
+      <module name="br.com.prova2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inseto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inseto" />
         <item itemvalue="Application.CachorrosQuentes" />
         <item itemvalue="Application.Tridu" />
         <item itemvalue="Application.ZerinhoouUm" />
@@ -98,5 +124,18 @@
       <updated>1570996114435</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

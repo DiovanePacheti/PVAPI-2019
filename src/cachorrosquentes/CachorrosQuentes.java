@@ -39,21 +39,20 @@ public class CachorrosQuentes {
 
         String valores;
         String[] partes;
-        int totalConsumidoCQ = 0;
-        int totalParticipantes = 0;
+        double totalConsumidoCQ = 0;
+        double totalParticipantes = 0;
         double media;
-
+        //isntanciando o objeto in
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-        valores = in.readLine();
+        valores = in.readLine();//lendo os valores em uma linha
 
-        partes = valores.split(" ");
+        partes = valores.split(" ");//usando split para dividir a string em partes quando encontrar um espaço
 
-        totalConsumidoCQ = Integer.parseInt(partes[0]);
-        totalParticipantes = Integer.parseInt(partes[1]);
+        totalConsumidoCQ = Integer.parseInt(partes[0]);//primeira parte antes do espaço
+        totalParticipantes = Integer.parseInt(partes[1]);//segunda parte depois do espaço
 
-        media = totalConsumidoCQ / totalParticipantes;
-
-        System.out.println(media);
+        media = totalConsumidoCQ / totalParticipantes;//atribuindo a divisao de total de Pa
+        System.out.printf("%.2f",media);
     }//fim do method
 }//fim da class
