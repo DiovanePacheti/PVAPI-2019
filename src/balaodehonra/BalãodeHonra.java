@@ -10,12 +10,12 @@ public class BalãodeHonra {
         Scanner scan = new Scanner(System.in);
 
         letra = scan.nextLine();
-
+/*
         for(int i = 0 ; i > 25;i++){
             char buscaLetras = "posicao";
             if(letra.equalsIgnoreCase(buscaLetras)){
 
             }
-        }
+        }*/
     }//fim do method
 }//fim da class

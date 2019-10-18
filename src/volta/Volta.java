@@ -1,7 +1,11 @@
 package volta;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Volta {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*
         No automobilismo é bastante comum que o líder de uma prova,
         em determinado momento, ultrapasse o último colocado. O líder,
@@ -28,6 +32,30 @@ public class Volta {
         retardatário.
         */
 
+        String valores ="";
+        int primeiroPiloto = 0;
+        int segundoPiloto = 0;
+        int volta = 1;
+        int tempoTiradoPorPiloto = 0;
 
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+
+        valores = in.readLine();//variavel que recebe os valores do dois pilotos
+
+        String[] partes = valores.split(" ");//dividindo os valores em duas partes quando encontrar um espaço " ".
+
+        primeiroPiloto = Integer.parseInt(partes[0]);//atribuindo o primeiro valor convertido em int
+        segundoPiloto = Integer.parseInt(partes[1]);
+
+        do {//faça
+            //atribuindo tempo que o primeiro piloto tira do segundo
+            tempoTiradoPorPiloto += (segundoPiloto - primeiroPiloto);
+            if(tempoTiradoPorPiloto >= segundoPiloto){/*se o tempo tirado for maior ou igual a tempo que
+                                                        o segundo piloto leva pradar uma volta*/
+                break; //quebre
+            }
+            volta++; //conta quantas voltas estao sendo dadas
+        }while(true);
+        System.out.println(volta);
     }//fim do method
 }//fim da class
